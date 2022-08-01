@@ -293,3 +293,26 @@ ul {
   width: 200px;
   height: 150px;
 }
+
+.home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flexed{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-children{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(15, 0, 0);
+  margin: 50px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  justify-items: center;
+}
